@@ -20,7 +20,7 @@ console.log('Subtraction Result is: '+sub);
 console.log('Multiply Result is: '+mul);
 console.log('Mod Result is: '+mod);
 console.log('Increment Result is: '+Result);
-
+console.log('Pre incremented value of x is: '+x);
 
 /******This is Assigment operators*****/
 
