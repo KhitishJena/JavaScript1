@@ -1,7 +1,7 @@
 class Employee {
 
-    // let firstName, lastName;
-    // let empId;
+     //let firstName, lastName;
+     //let empId;
     
     setDetails(firstName, lastName, empId){
         this.firstName = firstName;
