@@ -1,7 +1,8 @@
 function add(a,b){
-
-    console.log(a+b);
-    return(a+b);
+ 
+    let c = a+b;
+    console.log('Inside the function: '+ c);
+    return(c);
 
 }
 

@@ -14,6 +14,7 @@ for(let i =1; i<=10; i++) {
 let x, fruits = ['Lemons','melons','Cherry'];
 
 for(x in fruits){
+    console.log(x);
     console.log(fruits[x]);
 }
 
