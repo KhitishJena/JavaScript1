@@ -1,7 +1,7 @@
 class car{
 
-    setName(name){
-        this.name = name;
+    setName(name){                // the value of the paramter will be assigned to the name and will be
+        this.name = name;         // passed to the this.name
     }
 
     startEngine(){
