@@ -1,19 +1,24 @@
 class Employee {
 
-     //let firstName, lastName;
-     //let empId;
+    //let fName, lName, eId;
+
+    //  setDetails(firstName, lastName, empId){
+    //     fName = firstName;
+    //     lName = lastName;
+    //     eId = empId;
+    // }
     
     setDetails(firstName, lastName, empId){
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.empId = empId;
+        this.fName = firstName;
+        this.lName = lastName;
+        this.eId = empId;
     }
 }
 
 let emp = new Employee();
 emp.setDetails('Satish', 'Jena', 671418);
 
-console.log(emp.firstName +' '+ emp.lastName +', EmpId: '+ emp.empId);
+console.log(emp.fName +' '+ emp.lName +', EmpId: '+ emp.eId);
 
 
 /****************CONSTRUCTOR*********************/
