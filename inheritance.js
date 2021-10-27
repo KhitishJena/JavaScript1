@@ -1,22 +1,22 @@
 class car{
 
     setName(name){                // the value of the paramter will be assigned to the name and will be
-        this.name = name;         // passed to the this.name
+        this.carName = name;      // passed to the this.carName
     }
 
     startEngine(){
-        console.log('Engine started for '+this.name);
+        console.log('Engine started for '+this.carName);
     }
 
     stopEngine(){
-        console.log('Engine started for '+this.name);
+        console.log('Engine started for '+this.carName);
     }
 }
 
 class toyota extends car{
 
     topSpeed(speed){
-        console.log('Top Speed for '+ this.name + ' is '+ speed);
+        console.log('Top Speed for '+ this.carName + ' is '+ speed);
     }
 }
 
