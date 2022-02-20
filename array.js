@@ -22,16 +22,16 @@ console.log(cars.length); //Gives the length of the Array.
 
 /*******************ARRAY METHODS********************/
 
-let fruits = ['Apple', 'Banana', 'Grapes'];
-console.log(fruits);
+let fruits1 = ['Apple', 'Banana', 'Grapes'];
+console.log(fruits1);
 
-fruits.pop(); //Removes the last element of the Array.
-console.log(fruits);
+fruits1.pop(); //Removes the last element of the Array.
+console.log(fruits1);
 
-fruits.shift(); //Removes the first Element of the array
-console.log(fruits);
+fruits1.shift(); //Removes the first Element of the array
+console.log(fruits1);
 
-fruits.push('Apple');  //Adds element to the end of the Array.
+fruits.push('AshGoud');  //Adds element to the end of the Array.
 fruits.push('Grapes');
 fruits.push('Guava');
 console.log(fruits); 
