@@ -45,14 +45,14 @@ console.log(c);
    ? ternary operator
 */
 
-let d =10, e='10', comparision, comparision1, comparision2;
+let d =10, e='1', comparision, comparision1, comparision2;
 comparision = d==e;
 comparision1 = d===e;
 comparision2 = comparision ? comparision : comparision1;
 
 console.log(comparision);
 console.log(comparision1);
-console.log(comparision2);
+console.log('Ternary operator output is '+comparision2);
 
 
 

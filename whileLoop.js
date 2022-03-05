@@ -8,6 +8,6 @@ while (counter<= 10){
 
 //DO-while Loops
 do{
-    console.log('Do While Counter value is: '+ counter);
     counter--;
-}while(counter>= 0)
+    console.log('Do While Counter value is: '+ counter);
+}while(counter> 0)

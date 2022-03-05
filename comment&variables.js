@@ -11,8 +11,14 @@ This is a multi-line comment
 //let is now used for declaring variables
 
 let x= 10;
-let message = "hello";
+
 let x= 10, y= 20;
 let x,y;
 x = 10;
 y = 20;
+
+let message = "hello"; // string literal declaration
+let message1 = new String('satish') // New way of string declaration as in array
+console.log(message.endsWith("t"))
+console.log(message.charCodeAt(2))
+console.log(message.toUpperCase())

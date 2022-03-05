@@ -1,4 +1,4 @@
-let age = 55;
+let age = 5;
 
 //curly brackets can be used for multiple statements under the if or else block.    
 
